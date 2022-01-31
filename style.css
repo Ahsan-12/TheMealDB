@@ -1,0 +1,126 @@
+body{
+    background-color: #2d2013;
+}
+.container-fluid{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: repeat(4,1fr);
+}
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: #23180d;
+    padding: 15px 0;
+    padding-bottom: 0;
+ 
+}
+.navColor{
+    color: #fff;
+}
+#header{
+    
+    text-align: center;
+   
+    color: #fff;
+}
+hr{
+    color: white;
+}
+h2{
+    font-size: 2rem; 
+    text-align: center;
+    color: #fff;
+    
+}
+h3{
+    text-align: center;
+    color: #fff;
+
+}
+#latest-meal{
+    text-align: center;
+    color: #d57d1f;
+    
+}
+.img-size{
+    width: 65px;
+    height: 40px;
+    padding: 2px;
+}
+footer{
+    background-color: #23180d;
+    padding: 1%;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #ddd9d9;
+    color: rgb(167, 144, 144);
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+#Ingredients{
+    text-align: center;
+    color: #d57d1f ;
+}
+#random{
+    text-align: center;
+    color: #d57d1f;
+}
+#randIng{
+    text-align: center;
+    color: #d57d1f;
+}
+
+#log{
+    float: left;
+}
+#navbarTogglerDemo03{
+    float: right;
+}
+a {
+    color:#d57d1f;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.nav-item{
+
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+/* #image{
+    height: 70px;
+    width: 70px;
+} */
+/* #latest-meal{
+    height: 600px;
+    width: 500px;
+} */

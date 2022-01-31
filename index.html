@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheMealDb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+</head>
+<body>
+    <div style="background-color:#23180D">
+        <div class="container " >
+            <div class="row  p-2">
+                <div class="col-6 ">
+                    <div id="log">
+                        <img class="pt-3" src="logo.png" alt="">
+                    </div>
+    
+                </div>
+                <div class="col-6  p-0 d-flex justify-content-end">
+                    <nav class="navbar navbar-expand-lg navbar-light  p-2" >
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        
+                
+                        <div class="collapse navbar-collapse pt-2" id="navbarTogglerDemo03">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                                <li class="nav-item active text-white">
+                                    <a class="btn bg-danger" href="#">Home</a>
+                                </li>
+                                <li class="nav-item pt-2 ">
+                                    <a  href="#">API</a>
+                                </li>
+                                <li class="nav-item pt-2">
+                                    <a  href="#">Forum</a>
+                                </li>
+                            </ul>
+                            <a href=""><i class="fab fa-facebook-square fa-2x pt-1 mx-2"></i></a>
+                            <a href=""><i class="fab fa-twitter-square fa-2x pt-1"></i></a>
+                            <form class="form-inline my-2 mx-2 my-lg-0 ">
+                                <input class="form-control mr-sm-2 pl-5" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                            
+                        </div>
+                    </nav>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    </div>
+    
+
+      <div class="container">
+    
+        <div id="header">
+           
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="meal-icon (1).png">
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <h2>Welcome to TheMealDB</h2>
+                    <p>Welcome to TheMealDB: An open, crowd-sourced database of Recipes from around the world.
+                        We also offer a free JSON API for anyone wanting to use it, with additional features for subscribers.</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="meal-icon (1).png">
+                </div>
+            </div>
+        </div><hr>
+        <form class="example" action="" style="margin:auto;max-width:300px">
+            <input type="text" placeholder="Search for the Meal" name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            
+          </form>
+          <p style="color: #fff; text-align: center;"> Total Meals: 283 Total Ingredients: 574 Images: 283</p>
+          <hr>
+
+        <div id="latest-meal">
+            <h3>Latest Meals</h3>
+            <div class="row" id="mealss"></div></div><hr>
+
+        <div id="Popular-Ingredients">
+            <h3>Popular Ingredients</h3> 
+            <div class="row" id="Ingredients"></div>
+        </div><hr>
+        <div id="random-meals">
+            <h3>Random Meals</h3> 
+            <div class="row" id="random"></div>
+        </div><hr>
+
+        <div id="random-Ingredients">
+            <h3>Random Ingredients</h3>
+            <div class="row" id="randIng"></div>
+        </div><hr>
+
+       
+
+
+        <div id="browse-country">
+            <h3 class="p-2"> Country</h3>
+            <a href='/browse.php?a=British'>
+				<img class="img-size" src='images/british.png'></a>
+				
+				<a href='/browse.php?a=American'>
+				<img class="img-size" src='images/american.jpg'></a>
+				
+				<a href='/browse.php?a=French'>
+				<img class="img-size" src='images/french.png'></a>
+				
+				<a href='/browse.php?a=Canadian'>
+				<img class="img-size" src='images/canada.png'></a>
+				
+				<a href='/browse.php?a=Jamaican'>
+				<img class="img-size" src='images/jamican.png'></a>
+				
+				<a href='/browse.php?a=Chinese'>
+				<img class="img-size" src='images/chiness.png'></a>
+				
+				<a href='/browse.php?a=Dutch'>
+				<img class="img-size" src='images/dutch.jpg'></a>
+				
+				<a href='/browse.php?a=Egyptian'>
+				<img class="img-size" src='images/egypt.png'></a>
+				
+				<a href='/browse.php?a=Greek'>
+				<img class="img-size" src='images/greek.png'></a>
+				
+				<a href='/browse.php?a=Indian'>
+				<img class="img-size" src='images/india.png'></a>
+				
+				<a href='/browse.php?a=Irish'>
+				<img class="img-size" src='images/irish.jpg'></a>
+				
+				<a href='/browse.php?a=Italian'>
+				<img class="img-size" src='images/italian.png'></a>
+				
+				<a href='/browse.php?a=Japanese'>
+				<img class="img-size" src='images/japan.png'></a>
+				
+				<a href='/browse.php?a=Kenyan'>
+				<img class="img-size" src='images/kenya.jpg'></a>
+				
+				<a href='/browse.php?a=Malaysian'>
+				<img class="img-size" src='images/mayalsia.jpg'></a>
+				
+				<a href='/browse.php?a=Mexican'>
+				<img class="img-size" src='images/mexico.png'></a>
+				
+				<a href='/browse.php?a=Moroccan'>
+				<img class="img-size" src='images/morrowco.png'></a>
+				
+				<a href='/browse.php?a=Croatian'>
+				<img class="img-size" src='images/cortia.jpg'></a>
+				
+				<a href='/browse.php?a=Norwegian'>
+				<img class="img-size" src='images/norway.png'></a>
+				
+				<a href='/browse.php?a=Portuguese'>
+				<img class="img-size" src='images/portugal.jpg'></a>
+				
+				<a href='/browse.php?a=Russian'>
+				<img class="img-size" src='images/rusia.jpg'></a>
+				
+				<a href='/browse.php?a=Argentinian'>
+				<img class="img-size" src='images/argentina.jpg'></a>
+				
+				<a href='/browse.php?a=Spanish'>
+				<img class="img-size" src='images/spanish.png'></a>
+				
+				<a href='/browse.php?a=Slovakian'>
+				<img class="img-size" src='images/slovakian.jpg'></a>
+				
+				<a href='/browse.php?a=Thai'>
+				<img class="img-size" src='images/thai.png'></a>
+				
+				<a href='/browse.php?a=Saudi Arabian'>
+				<img class="img-size" src='images/saudia.png'></a>
+				
+				<a href='/browse.php?a=Vietnamese'>
+				<img class="img-size" src='images/vietnam.png'></a>
+				
+				<a href='/browse.php?a=Turkish'>
+				<img class="img-size" src='images/turkey.png'></a>
+				
+				<a href='/browse.php?a=Syrian'>
+				<img class="img-size" src='images/syria.png'></a>
+				
+				<a href='/browse.php?a=Algerian'>
+				<img class="img-size" src='images/algeri.png'></a>
+				
+				<a href='/browse.php?a=Tunisian'>
+				<img class="img-size" src='images/tunisain.png'></a>
+				
+				<a href='/browse.php?a=Polish'>
+				<img class="img-size" src='images/poland.png'></a>
+            </div><hr>
+            <div id="browse-byName">
+            <h3>Browse By Name</h3>
+            <h4 class="p-2 m-1" style="text-align: center; "> 
+                <a href=''/>A</a> / <a href=''/>B</a> / <a href=''/>C</a> / <a href=''/>D</a> / <a href=''/>E</a> / <a href=''/>F</a> / <a href=''/>G</a> / <a href=''/>H</a> / <a href=''/>I</a> / <a href=''/>J</a> / <a href=''/>K</a> / <a href=''/>L</a> / <a href=''/>M</a> / <a href=''/>N</a> / <a href=''/>O</a> / <a href=''/>P</a> / <a href=''/>Q</a> / <a href=''/>R</a> / <a href=''/>S</a> / <a href=''/>T</a> / <a href=''/>U</a> / <a href=''/>V</a> / <a href=''/>W</a> / <a href=''/>X</a> / <a href=''/>Y</a> / <a href=''/>Z</a>			</h4>
+                </div>
+               
+           
+        </div>
+        <footer id="footer" style="color: #fff;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">© 2022 TheMealDB
+                        Proudly built in the UK</div>
+                    <div class="col-lg-8" style="text-align: center;">
+                        <img src="foot1.png">
+                        <img src="foot2.png">
+                        <img src="foot3.png">
+                    </div>
+                    <div class="col-lg-2">
+                        <a href=""  style="color:#fff">About </a>
+                        <a href=""  style="color:#fff"> Faq </a>
+                        <a href="" style="color:#fff"> Contact</a>
+                    </div>
+                </div>
+            </div>
+            
+                 
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="ahmad.js"></script>
+    <!-- <script src="latest.json"></script> -->
+</body>
+</html>
+<template id="template">
+    <div style="margin:0 0 10px 0;" id="demo" class="col-lg-3">
+        <img class="img-style" src="" width="95%">
+        <a href="" style="color:#d57d1f; font-size:25px"></a>
+    </div>
+    
+</template>

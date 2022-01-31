@@ -1,0 +1,20 @@
+{
+    "meat":[
+        {
+            "piTag":"Chicken.png",
+            "name":"Chicken"
+        },
+        {
+            "piTag":"Salmon.png",
+            "name":"Salmon"
+        },
+        {
+            "piTag":"Beef.png",
+            "name":"Beef"
+        },
+        {
+            "piTag":"Pork.png",
+            "name":"Pork"
+        }
+    ]
+}

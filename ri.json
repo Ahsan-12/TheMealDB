@@ -1,0 +1,19 @@
+{
+    "riList":[{
+        "piImg":"IceCream.png",
+         "name":"Ice Cream"
+    },
+    {
+        "piImg":"Lasagne.png",
+         "name":"Lasagne Sheets"
+    },
+    {
+        "piImg":"Olives.png",
+        "name":"Pitted Black Olives"
+    },
+    {
+        "piImg":"Cabbage.png",
+        "name":"Cabbage"
+    }
+]
+}

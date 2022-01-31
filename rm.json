@@ -1,0 +1,36 @@
+{
+    "meat":[
+        {
+            "piTag":"ri-1.jpg",
+            "name":"Brown Stew Chicken"
+        },
+        {
+            "piTag":"ri-2.jpg",
+            "name":"Portuguese barbecued pork (Febras assadas)"
+        },
+        {
+            "piTag":"ri-3.jpg",
+            "name":"Mushroom soup with buckwheat"
+        },
+        {
+            "piTag":"ri-4.jpg",
+            "name":"Spicy Arrabiata Penne"
+        },
+        {
+            "piTag":"ri-5.jpg",
+            "name":"Croatian Bean Stew"
+        },
+        {
+            "piTag":"ri-6.jpg",
+            "name":"Apam balik"
+        },
+        {
+            "piTag":"ri-7.jpg",
+            "name":"Snert (Dutch Split Pea Soup)"
+        },
+        {
+            "piTag":"ri-8.jpg",
+            "name":"Eton Mess"
+        }
+    ]
+}
